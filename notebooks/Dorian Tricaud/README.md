@@ -24,9 +24,11 @@ Key components will include the probe measurement setup, the analog to digital c
 Discussion on High-level requirements. We are thinking that measurement precision is important, perhaps within ±50 mV. Wafers come in different sizes and shapes (?) so we would like to make sure that our system will work for a variety of different shapes, we think that 5 shapes is a good benchmark. Current four-point probes use a varying current source value for wafers, we are not sure why (will look into it? guess right now perhaps to slowly achieve an accruate value). We would like to use cost as a requirement, but will discuss with TA during meeting to make sure it's valid.
 
 ### Block Diagram
-We have 3 subsystems within our design: Measurment, User Input, Display. Measurement subsystem will supply the current across the two outer probes and measure the voltage across the two inner probes. User Input is self explanatory, we will need to come up with a menu for interaction. Display is a bit ambiguous, but will likely include the various calculations used to determine what is being measured and the sheet resistance including the correction factor.
+We have 3 subsystems within our design: Measurment, User Input, Display. Measurement subsystem will supply the current across the two outer probes and measure the voltage across the two inner probes. User Input is self explanatory, we will need to come up with a menu for interaction. Display is a bit ambiguous, but will likely include the various calculations used to determine what is being measured and the sheet resistance including the correction factor. 
+Added a 4th subsystem, Power Supply subsystem as we will need to step down the 5V input to 3.3V (and potentially later 1.8V) for the other subsystems.
 
-### Block Diagram
+
+### Subsystem Overview
 
 
 ### Tolerance Analysis
