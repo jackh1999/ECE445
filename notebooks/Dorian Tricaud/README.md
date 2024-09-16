@@ -9,6 +9,7 @@
 We setup the notebooks repository, will be adding updates and supporting documents as they come by in future meetings
 
 ## Proposal Preperation
+Currently using Google Docs for the proposal for collaborative environment, may transition to LaTeX later TBD.
 
 ### Problem
 Problem was inspired by ECE 444 Class: Theory and Fabrication of Integrated Circuits. Semiconductors are difficult to test and testing equipment is expensive because of that. We decided to tackle the four-point probe setup due to it being used in the lab and its lower complexity.
@@ -20,5 +21,5 @@ We plan to design and create our own four-point probe capable of measuring the s
 Key components will include the probe measurement setup, the analog to digital converter, the microcontroller for calculations, the display, and the keyboard. The probe measurements will interact with the ADC. The Microcontroller will interact with the ADC, Display, and Keyboard to manage proper I/O.
 
 ### High-Level Requirements
-Discussion on High-level requirements. We are thinking that measurement precision is important, perhaps within . We would like to use cost as a requirement, but will discuss with TA during meeting to make sure it's valid.
-Currently using Google Docs for the proposal for collaborative environment, may transition to LaTeX for final draft.
+Discussion on High-level requirements. We are thinking that measurement precision is important, perhaps within ±50 mV. Wafers come in different sizes and shapes (?) so we would like to make sure that our system will work for a variety of different shapes, we think that 5 shapes is a good benchmark. Current four-point probes use a varying current source value for wafers, we are not sure why (will look into it? guess right now perhaps to slowly achieve an accruate value). We would like to use cost as a requirement, but will discuss with TA during meeting to make sure it's valid.
+
