@@ -26,3 +26,8 @@ Discussion on High-level requirements. We are thinking that measurement precisio
 ### Block Diagram
 We have 3 subsystems within our design: Measurment, User Input, Display. Measurement subsystem will supply the current across the two outer probes and measure the voltage across the two inner probes. User Input is self explanatory, we will need to come up with a menu for interaction. Display is a bit ambiguous, but will likely include the various calculations used to determine what is being measured and the sheet resistance including the correction factor.
 
+### Block Diagram
+
+
+### Tolerance Analysis
+Some simulating software will be used to prove the feasability of the model. 
