@@ -29,7 +29,13 @@ Added a 4th subsystem, Power Supply subsystem as we will need to step down the 5
 ![Block Diagram](./Photos/BlockDiagram.jpg)
 
 ### Subsystem Overview
+We transfered over the subsystem overview from our RPA, each subsystem has pretty simple interaction and requirements.
 
+### Subsystem Requirements
+TBD
 
 ### Tolerance Analysis
-Some simulating software will be used to prove the feasability of the model. 
+Some simulating software will be used to prove the feasability of the model. Point to discuss at TA meeting.
+
+### Ethics & Safety
+Unknown Ethical and Safety concerns currently. Don't put your finger by the sharp probes. Ensure calibration/accuracy before delivery to user? Point to discuss at TA meeting.
