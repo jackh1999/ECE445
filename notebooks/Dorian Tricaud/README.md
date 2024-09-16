@@ -1,6 +1,6 @@
 # Table of Contents
 
-[Sep 26, 2024](#September 16, 2024)
+[Sep 26, 2024](#September-16,-2024)
 
 # September 16, 2024
 
