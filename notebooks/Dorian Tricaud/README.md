@@ -39,3 +39,30 @@ Some simulating software will be used to prove the feasability of the model. Poi
 
 ### Ethics & Safety
 Unknown Ethical and Safety concerns currently. Don't put your finger by the sharp probes. Ensure calibration/accuracy before delivery to user? Point to discuss at TA meeting.
+
+
+# September 17, 2024
+
+## TA Meeting
+
+### Logistics
+Currently planning on keeping the same time slot each week, will input availability to the PACE document. Normal office hours will be available, orange boxes are dissapearing
+
+### Block Diagram
+Certain connections need more labels, will update and correct. Potentially add the 
+
+### Ethics and Safety
+Few ideas and examples provided, mainly the FA22 Team 1 Proprosal. 
+
+### High Level Requirements
+Update to full complete sentences. Add a few qualitative sentences about the features. Be modest at first as anything we put down are going to be required for the final design.
+
+### Github/Notebook
+Single notebook being updated by multiple users if fine, we need to upload the link to the PACE My Project tab.
+
+### Tolerance
+Add error rates. Potentially use the datasheets, and various calculations. SPICE can be used, but more than likely will be too complex and need input. 
+
+### PCB Design Review
+Keep posted, we should keep in mind to ensure preparation. Shipping will likely take a week, we should keep that in mind to potentially have multiple PCB versions with alterations in case delays occur.
+
