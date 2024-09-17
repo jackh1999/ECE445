@@ -66,3 +66,5 @@ Add error rates. Potentially use the datasheets, and various calculations. SPICE
 ### PCB Design Review
 Keep posted, we should keep in mind to ensure preparation. Shipping will likely take a week, we should keep that in mind to potentially have multiple PCB versions with alterations in case delays occur.
 
+### Resources
+Team gets $150 through my.ECE. Eshop has free stuff. Meeting is timed or something to log hours.
