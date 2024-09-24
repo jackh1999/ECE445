@@ -4,7 +4,7 @@
 
 [Sep 17, 2024](#september-17,-2024)
 
-[Sep 17, 2024](#september-24,-2024)
+[Sep 24, 2024](#september-24,-2024)
 
 # September 16, 2024
 
