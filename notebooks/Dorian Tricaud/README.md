@@ -4,6 +4,8 @@
 
 [Sep 17, 2024](#september-17,-2024)
 
+[Sep 17, 2024](#september-24,-2024)
+
 # September 16, 2024
 
 ## Respository Setup
@@ -70,3 +72,20 @@ Keep posted, we should keep in mind to ensure preparation. Shipping will likely 
 
 ### Resources
 Team gets $150 through my.ECE. Eshop has free stuff. Meeting is timed or something to log hours.
+
+# September 24, 2024
+
+## TA Meeting
+
+### Proposal Feedback
+High-level requirements good enough. Block Diagram looks fine, not much to change. Subsystem Overview looks good. Subsystem requirement 2.3.1.2 need more detail, should add the range of voltage 
+but its difficult as theres no paper/data for sweep length. Can add note that it's a work in progress, and that theres no paper and will be figured out at a later step. May change from requirement to overview because there is no exact guideline. 2.3.4.1 needs to include a tolerance range +- 0.1V +- 10mA. Tolerance Analysis should have formulas added to it, calculations will be good to include in the section. Can do power cause it doesn't matter rubric wise, can spin it to the other subsystems because the power supply ripple will affect other components. Overall, pretty good proposal. Proposal regrade is next Friday.
+
+### Design Document
+Next week Thursday. Don't overpromise uncertain deliverables. Must have high-level requirements included. 
+
+### Design Review and PCB Review
+In two weeks. Will have to sign up for time slot. 
+
+### Microcontroller
+1 MB should be plenty. C/C++ is the main language, but it may have Python support. They have a few free STMs here, but the better versions will have to be purchased. 
