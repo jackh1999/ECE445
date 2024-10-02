@@ -89,3 +89,17 @@ In two weeks. Will have to sign up for time slot.
 
 ### Microcontroller
 1 MB should be plenty. C/C++ is the main language, but it may have Python support. They have a few free STMs here, but the better versions will have to be purchased. 
+
+# October 01, 2024
+
+## TA Meeting
+
+### Design Document
+Can utilize Proposal for certain sections. Switching away from STM for development kit access. Schematic should be used for Supporting Material. 
+
+### Design Review/Peer Review
+Pick a peer review timeslot, can ask question. Be somewhat formal for our clothing, but doesn't have to be super strict. 
+Modularity is that there needs to be different subsystems. 
+Detailed Design is going in depth into the subsystem, why does it work well, why is it needed, why is it good.
+Scope is adequetly complex and potentially feasible. 
+Each person must answer at least one question, but some people 
