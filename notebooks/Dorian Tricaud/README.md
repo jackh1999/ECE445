@@ -125,4 +125,7 @@ For higher efficency a buck was used for the initial 5V to 3.3V voltage stepdown
 
 ### 
 
-###
+# October 08, 2024
+
+## Design Review
+Presented to professor. Feedback includes, costs missing 2.5x multiplier. Debugging time estimation may be low. Add background on what four-point probe is, wafers, doping, etc. 
