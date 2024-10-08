@@ -113,7 +113,8 @@ Largely remaining the same from the proposal document. We plan to switch from ST
 
 ### Design
 Block Diagram added a few labels/lines to indicate design changes. Added the 1.8V LDO and power rail because we need for our chips. Switched STM to ESP.
-Schematics for all subsystems have been created in KiCAD and images added to the design document. These schematics can also be viewed in the models folder.
+Schematics for all subsystems have been created in KiCAD and images added to the design document. These schematics can also be viewed in the models folder (10/4/2024 Update: A few components have been changed due to version conflicts these files have been updated).
+
 
 ### 
 
