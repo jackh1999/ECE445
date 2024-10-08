@@ -117,8 +117,11 @@ Schematics for all subsystems have been created in KiCAD and images added to the
 
 #### Measurement Subsystem
 #### User Input Subsystem
+Chose buttons and capacitances to debounce switches for ~1ms.
 #### Display Subsystem
+Switched to the LCD at the ECE supply store to reduce project cost.
 #### Power Regulation Subsystem
+For higher efficency a buck was used for the initial 5V to 3.3V voltage stepdown because of its theoretical 100% efficiency. Chose TLV62568PDDCR because of its low cost and it met all specifications of other components requiring a 3.3V power rail. To make sure that the passives chosen would provide the desired output, the converter was simulated in LTSpice and this revealed that we were well within the specifications that the other components required as well as the specification that the buck feedback required. A LDO, TLV74018PDBVR, was chosen for the 3.3V to 1.8V stepdown for its low noise output. This powers the precision components that require a lower noise power supply to accurately measure.
 
 ### 
 
