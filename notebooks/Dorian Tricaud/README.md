@@ -103,3 +103,18 @@ Modularity is that there needs to be different subsystems.
 Detailed Design is going in depth into the subsystem, why does it work well, why is it needed, why is it good.
 Scope is adequetly complex and potentially feasible. 
 Each person must answer at least one question, but some people 
+
+# October 02, 2024
+
+## Design Review Work
+
+### Introduction
+Largely remaining the same from the proposal document. We plan to switch from STM to ESP microprocessor because it has python. 
+
+### Design
+Block Diagram added a few labels/lines to indicate design changes. Added the 1.8V LDO and power rail because we need for our chips. Switched STM to ESP.
+Schematics for all subsystems have been created in KiCAD and images added to the design document. These schematics can also be viewed in the schematics subfolder.
+
+### 
+
+###
