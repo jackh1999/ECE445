@@ -128,4 +128,9 @@ For higher efficency a buck was used for the initial 5V to 3.3V voltage stepdown
 # October 08, 2024
 
 ## Design Review
-Presented to professor. Feedback includes, costs missing 2.5x multiplier. Debugging time estimation may be low. Add background on what four-point probe is, wafers, doping, etc. 
+Presented to professor. Feedback includes, costs missing 2.5x multiplier. Debugging time estimation may be low. Add background on what four-point probe is, wafers, doping, etc.
+
+# October 15, 2024
+
+## TA Meeting
+Asked for Stencil. Asked for USB-UART bridge. Partner Evaluation due tomorrow. Eshop request form for parts was completed. Some of the pads for our first week PCB may not align with the parts we got from the eshop, we will discuss whether we simply order the parts or if we will adjust the pads on the PCB. 
