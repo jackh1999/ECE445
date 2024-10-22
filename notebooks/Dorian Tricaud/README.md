@@ -134,3 +134,8 @@ Presented to professor. Feedback includes, costs missing 2.5x multiplier. Debugg
 
 ## TA Meeting
 Asked for Stencil. Asked for USB-UART bridge. Partner Evaluation due tomorrow. Eshop request form for parts was completed. Some of the pads for our first week PCB may not align with the parts we got from the eshop, we will discuss whether we simply order the parts or if we will adjust the pads on the PCB. 
+
+# October 22, 2024
+
+## TA Meeting
+Four point probe arrived last night, haven't had time to brainstorm yet. Apparently the four point probe connector uses shielding and better wiring so we plan to use the connector for most of the connection. There are 5 points connectors, one unknown. PCB arrive this week (hopefully), design progress will resume when that happens. Part order is planned to happen tomorrow, should be easy we will use the eshoop form and the rest we will order from DigiKey. ESP prototyping/learning will happen during the next week.  
