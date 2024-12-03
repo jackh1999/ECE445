@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SLW_913535_2A_SMT")(type "KiCad")(uri "D:/New Documents/Fa2024/ECE 445/KiCad/10_8/1local_symbols/2024-10-11_00-42-31.kicad_sym")(options "")(descr ""))
+  (lib (name "GPTS203211B")(type "KiCad")(uri "D:/New Documents/Fa2024/ECE 445/KiCad/10_8/1local_symbols/2024-10-15_01-46-26.kicad_sym")(options "")(descr ""))
+  (lib (name "2169900003")(type "KiCad")(uri "D:/New Documents/Fa2024/ECE 445/KiCad/10_8/1local_symbols/2169900003.kicad_sym")(options "")(descr ""))
+)

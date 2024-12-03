@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "local_footprints")(type "KiCad")(uri "D:/New Documents/Fa2024/ECE 445/KiCad/10_8/local_footprints")(options "")(descr ""))
+)
