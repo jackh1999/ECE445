@@ -195,6 +195,9 @@ Can't get GPIO input to work consistently. Some of the pins can output others do
 Can't flash ESP32 for some reason. Troubleshooting, but flash is only successful like 1/100 times. Added generic ASCII printing to the LCD code so I can properly print things. Set up basic 
 I/O, turns out the gpio config uses a bitmap rather than an actual number. Have basic screen cycling which goes "first screen." After pressing a button to goes to "next screen."
 
+## 3D Printing
+To be added by Simon.
+
 # November 19, 2024
 
 ## Mock Demo
