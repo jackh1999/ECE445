@@ -116,6 +116,7 @@ Block Diagram added a few labels/lines to indicate design changes. Added the 1.8
 Schematics for all subsystems have been created in KiCAD and images added to the design document. These schematics can also be viewed in the models folder (10/4/2024 Update: A few components have been changed due to version conflicts these files have been updated).
 
 #### Measurement Subsystem
+Designs were largely chosen to mimic an actual four point probe. For that reason we plan to use 200 mA current source, apparently the higher current will provide better readings. We aren't completely sure on the voltage readings we are going to get from the probe head, however we currently anticipate between 20mV to 100mV readings. We plan to amplify these results in order to ensure that our ADC can properly measure the results.
 #### User Input Subsystem
 Chose buttons and capacitances to debounce switches for ~1ms.
 #### Display Subsystem
@@ -139,3 +140,55 @@ Asked for Stencil. Asked for USB-UART bridge. Partner Evaluation due tomorrow. E
 
 ## TA Meeting
 Four point probe arrived last night, haven't had time to brainstorm yet. Apparently the four point probe connector uses shielding and better wiring so we plan to use the connector for most of the connection. There are 5 points connectors, one unknown. PCB arrive this week (hopefully), design progress will resume when that happens. Part order is planned to happen tomorrow, should be easy we will use the eshoop form and the rest we will order from DigiKey. ESP prototyping/learning will happen during the next week.  
+
+# October 27, 2024
+
+## Group Meeting
+Began filling out the ordering form for DigiKey and Eshop. Also looked up resources for programming an ESP as none of us are very experienced in that material. We so far have materials on SPI protocol, flashing, GPIO. Began to set up work space in Arduino/VS Code for programming. Jack began an initial test of the voltage measurements from the four-point probe using the lab bench power-supply. More details in the google drive, but so far the voltage levels are not what we anticipated. The voltage readings are higher than what we thought they would be, larger noise levels as well but we aren't sure if that's due to the long power supply/oscilloscope wires. Currently discussing changes to amplifier in order to account for this voltage change. 
+
+# October 29, 2024
+
+## Group Meeting
+We placed the DigiKey and Eshop order requests. Eshop should be within a few days and DigiKey should be early next week. Might remove the amplifier from our design, the ADC is precise enough at the mV range we expect so the amplifier might just add noise. We plan to decide within the next week.
+
+# November 3, 2024
+
+## Updates
+Parts arrived from DigiKey, Eshop, and PCB. DigiKey order was out of stock for the power protection diodes, also only have 1 current source by mistake. Eshop sent 0.01 uF capacitors instead of 0.1uF. Will need to order additional resistor/capacitor components from Eshop. PCB did not come with stencil, hand soldering will be done at some point.
+
+# November 5, 2024
+
+## TA Meeting
+1 Board has been finished soldering, another currently being soldered. We have decided to tentatively remove the amplifier from our design and just see the voltage readings from the ADC. We can add it back later if we are having issues with voltage levels. Second Eshop form sent with additional part requests. Ordered an LCD display off of amazon, has touch-screen but we don't plan on using that part. Indidual Progress Report due tomorrow.
+
+# November 7, 2024
+
+## Updates
+LCD display arrived. Second board has been soldered apart from current source.
+
+# November 12, 2024
+
+## TA Meeting 
+Final Demo and Final Presentation sign up opens tomorrow. Mock Demo is next week, informal just need to show up for points. Will hopefully have at least most subsystems somewhat functional at that time.
+
+# November 13, 2024
+
+## Group Meeting 
+Signed up for Demo and Presentation. Gave Dorian Dev Board so he can work at home.
+
+# November 14, 2024
+
+## ESP LCD Initial Testing
+Began programming the ESP Dev Board. Downloaded and used a few of their examples (blink, hello_world) to familiarize myself with the environment. Also found an example lcd module which does work with our lcd_panel. Will try refactoring the code for our own menu. 
+
+# November 15, 2024
+
+## ESP LCD
+Can't get GPIO input to work consistently. Some of the pins can output others don't. Also LCD has a backlight level which our PCB does not include. We can probably just set to 3.3V constant and will function fine. Will discuss with team. Succesfully got half white/half black screen to show up. Pixel uses 16 bit color code. 0x0000 is white and 0xFFFF is black (I think because the colors got inverted).
+
+# November 16, 2024
+
+## Group Meeting 
+Can't flash ESP32 for some reason. Troubleshooting, but flash is only successful like 1/100 times. 
+
+
