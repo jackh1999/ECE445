@@ -183,6 +183,9 @@ Began programming the ESP Dev Board. Downloaded and used a few of their examples
 
 # November 15, 2024
 
+## Group Meeting
+Having issues with ESP32 chip. Not sure what the issue is but it doesn't seem to be communicating.
+
 ## ESP LCD
 Can't get GPIO input to work consistently. Some of the pins can output others don't. Also LCD has a backlight level which our PCB does not include. We can probably just set to 3.3V constant and will function fine. Will discuss with team. Succesfully got half white/half black screen to show up. Pixel uses 16 bit color code. 0x0000 is white and 0xFFFF is black (I think because the colors got inverted).
 
@@ -192,7 +195,15 @@ Can't get GPIO input to work consistently. Some of the pins can output others do
 Can't flash ESP32 for some reason. Troubleshooting, but flash is only successful like 1/100 times. Added generic ASCII printing to the LCD code so I can properly print things. Set up basic 
 I/O, turns out the gpio config uses a bitmap rather than an actual number. Have basic screen cycling which goes "first screen." After pressing a button to goes to "next screen."
 
-# November 17, 2024
+# November 19, 2024
+
+## Mock Demo
+Showed some results, honestly need to work more on the project.
+
+## Group Meeting
+Figured out the reason why flash wasn't working, one of the buttons was left floating and we had an extra resistor soldered. We are now able to reliably flash the device by manually setting the GPIO0 and EN pin to ground. It isn't great situation. 
+
+
 
 
 
