@@ -204,8 +204,17 @@ To be added by Simon.
 Showed some results, honestly need to work more on the project.
 
 ## Group Meeting
-Figured out the reason why flash wasn't working, one of the buttons was left floating and we had an extra resistor soldered. We are now able to reliably flash the device by manually setting the GPIO0 and EN pin to ground. It isn't great situation. 
+Figured out the reason why flash wasn't working, one of the buttons was left floating and we had an extra resistor soldered. We are now able to reliably flash the device by manually setting the GPIO0 and EN pin to ground. It isn't great situation. Break is next week so everyone is gone from 11/22 - 12/1. 
 
+# December 1, 2024
+
+## Crunch Time
+Turns out LCD display is vertical rather than horizontal, changed the code to reflect that. After some pin adjustments, got the LCD display working using the PCB. Problem is that backlighting needs a 3.3V pin that isn't present on the board. After some thinking, we have decided to repurpose one of our buttons to a dedicated 3.3V gpio slot. We have removed the corresponding capacitor from but_9 in order to isolate the pin. ADC isn't working. Using DevBoard we have found the MOSI, CLK, and CS all work properly. Measured on the PCB we found that CS and MOSI works well, but CLK is only at 1.8V and I can't figure out why. 
+
+# December 2, 2024
+
+## Crunch Time
+Our ADC has the wrong voltage inputs. It is currently being set at 1.8V but needs to be 3.3V, we have added jumper wires and removed capacitors to make sure that it's powered correctly. Jumper wire is connected to a NC ESP32 pin which we set to 3.3V using GPIO. Killed the ADC, replaced it. We can read the internal registers, but not the data register. Data register always holds 0 for some reason, might be related to the MCLK pin. Not sure how to setup a CLK on a GPIO pin. We can set the configuration register in order to use the internal MCLK. Displayed on the oscilloscope looks good, still can't read data register though. Shutdown, Standby, and Conversion mode - think it's related to this. Set the ADC to conversion mode but still reading 0 not sure why. Found really old forum post that mentions something about the IRQ pin needing external pullup or high-z mode. Used GPIO to pullup and also set it to high-z mode. There's some setaup time stuff needed before the measurement actually happens. Got it working, turns out the IRQ needs configured before the ADC is put to conversion mode. Now are reading voltage levels on the ADC, looks really good to be honest, just need to get a baseline offset for 0V.
 
 
 
