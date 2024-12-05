@@ -131,6 +131,10 @@ For higher efficency a buck was used for the initial 5V to 3.3V voltage stepdown
 ## Design Review
 Presented to professor. Feedback includes, costs missing 2.5x multiplier. Debugging time estimation may be low. Add background on what four-point probe is, wafers, doping, etc.
 
+# October 13, 2024
+## Layout
+Designed the layout from our schematic. Placed components in a compact grouping that would be easy to solder and made the traces as direct as possible. Passed the DRC rules from the PCBWay website and defined the board geometry.
+
 # October 15, 2024
 
 ## TA Meeting
@@ -196,7 +200,17 @@ Can't flash ESP32 for some reason. Troubleshooting, but flash is only successful
 I/O, turns out the gpio config uses a bitmap rather than an actual number. Have basic screen cycling which goes "first screen." After pressing a button to goes to "next screen."
 
 ## 3D Printing
-To be added by Simon.
+Designed the base to hold the LCD and button pad with clips and by friction fit. Added grooves too so that the back side can just be clipped in. Started print for the base.
+
+# November 17, 2024
+
+## 3D Printing
+Designed the back side of the main casing as well as the plate for the wafer to be held. Increased size of the first printed piece. Printed the fixed base and wafer plate.
+
+# November 18, 2024
+
+## 3D Printing
+Designed the probe head holder and printed it. Cantalever clip approach confimed to work well for holding the pieces together firmly without extra hardware required.
 
 # November 19, 2024
 
@@ -205,6 +219,11 @@ Showed some results, honestly need to work more on the project.
 
 ## Group Meeting
 Figured out the reason why flash wasn't working, one of the buttons was left floating and we had an extra resistor soldered. We are now able to reliably flash the device by manually setting the GPIO0 and EN pin to ground. It isn't great situation. Break is next week so everyone is gone from 11/22 - 12/1. 
+
+# November 27, 2024
+
+## 3D Printing
+Increased the size of the back main casing and reprinted it to allow for more space for connection wires to sit.
 
 # December 1, 2024
 
