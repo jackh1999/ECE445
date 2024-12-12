@@ -240,6 +240,9 @@ Demo went really well. We were able to answer the questions and I think accurate
 ## Mock Presentation
 Our presentation went okay. We agree that we all need more practice and that our slides need more refinement. Our public speaking skills were okay, just need to handle our nervousness.
 
+## Team Contract
+Just wrote this kinda quickly. We want to focus on the presentation. Everyone contributed meaningfully to the project, our roles changed as the semester went by. Everyone got along very well with each other.
+
 # December 8, 2024
 
 ## Presentation Preparation
@@ -253,6 +256,9 @@ Doing some practice this morning, just trying to shake out any nerves we might h
 ## Presentation
 Presentation went well we think. We used 29 out of the 30 minutes, so a bit tight on time. Good job this semester proud of our progress.
 
+# December 12, 2024
 
+## Final Notes
+Transferring this document to a different part of the folder. We have checkout today and the award ceremony. We won an award which is slightly surprising, I guess our hard work ended up paying off. Overall, good project proud of our work.
 
 
