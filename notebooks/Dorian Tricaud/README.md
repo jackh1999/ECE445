@@ -1,11 +1,3 @@
-# Table of Contents
-
-[Sep 16, 2024](#september-16,-2024)
-
-[Sep 17, 2024](#september-17,-2024)
-
-[Sep 24, 2024](#september-24,-2024)
-
 # September 16, 2024
 
 ## Respository Setup
@@ -148,7 +140,7 @@ Four point probe arrived last night, haven't had time to brainstorm yet. Apparen
 # October 27, 2024
 
 ## Group Meeting
-Began filling out the ordering form for DigiKey and Eshop. Also looked up resources for programming an ESP as none of us are very experienced in that material. We so far have materials on SPI protocol, flashing, GPIO. Began to set up work space in Arduino/VS Code for programming. Jack began an initial test of the voltage measurements from the four-point probe using the lab bench power-supply. More details in the google drive, but so far the voltage levels are not what we anticipated. The voltage readings are higher than what we thought they would be, larger noise levels as well but we aren't sure if that's due to the long power supply/oscilloscope wires. Currently discussing changes to amplifier in order to account for this voltage change. 
+Began filling out the ordering form for DigiKey and Eshop. Also looked up resources for programming an ESP as none of us are very experienced in that material. We so far have materials on SPI protocol, flashing, GPIO. Began to set up work space in Arduino/VS Code for programming. Jack began an initial test of the voltage measurements from the four-point probe using the lab bench power-supply. More details in the google drive, but so far the voltage levels are not what we anticipated. The voltage readings are higher than what we thought they would be, larger noise levels as well but we aren't sure if that's due to the long power supply/oscilloscope wires. Currently discussing changes to amplifier in order to account for this voltage change. Jack's measurements can be viewed in the seperate pdf folder.
 
 # October 29, 2024
 
