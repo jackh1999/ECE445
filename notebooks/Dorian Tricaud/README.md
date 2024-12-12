@@ -240,6 +240,27 @@ Our ADC has the wrong voltage inputs. It is currently being set at 1.8V but need
 ## Final Demo Preparation
 Today is the final demo. We have added the connectors for the LCD (used to be on breadboard) and it still functions. Fit everything into the enclosure. One minor change was that the buttons should've been active low instead of active high so we had to change the code for that. Got everything in the enclosure and it works. Only potential issues that I could see happening is the four-point probe connection potentailly becoming loose, or the poor probe head placement resulting in bad readings. Will update on how the Demo goes later.
 
+## Final Demo
+Demo went really well. We were able to answer the questions and I think accurately display the capabilities of our project. Our readings were slightly less accurate than we hoped for, I think just due to variance or the surface we measured on. Will begin prepping for presentation
+
+# December 6, 2024
+
+## Mock Presentation
+Our presentation went okay. We agree that we all need more practice and that our slides need more refinement. Our public speaking skills were okay, just need to handle our nervousness.
+
+# December 8, 2024
+
+## Presentation Preparation
+We practiced our slideshow a bit, and also adjusted a few of the slides. We are currently running at about 22 minutes for the whole presentation. We are kinda expecting the professor to ask questions in the middle of it so hopefully we don't go over time. 
+
+# December 9, 2024
+
+## Presentation Prep
+Doing some practice this morning, just trying to shake out any nerves we might have. We did some last minute adjustments on the slide presentation order. Hopefully it flows better.
+
+## Presentation
+Presentation went well we think. We used 29 out of the 30 minutes, so a bit tight on time. Good job this semester proud of our progress.
+
 
 
 
